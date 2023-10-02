@@ -1,0 +1,14 @@
+/* TextEditor.css */
+
+/* Set the height of the parent container to 100% */
+.text-editor-container {
+    height: 100%;
+  }
+  
+  /* Set the height of the TextEditor component to 100% */
+  /* This will make it expand to fill its parent container */
+  .react-quill {
+    height: 100%;
+  }
+  
+  

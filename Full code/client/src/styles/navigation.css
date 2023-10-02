@@ -1,0 +1,113 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Google Sans Regular";
+}
+a{
+  text-decoration: none;
+}
+.nav-bar {
+    background: #e69d00;
+    padding: 2px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0rem;
+
+}
+
+.nav-bar ul li a {
+    display: block;
+    padding: 5px 10px;
+    margin:0 px;
+    border-radius: 10px;
+    transition: 0.25s ease;
+    color: #f2b739;
+    text-decoration: none;
+
+}
+
+.nav-bar ul li a i {
+   margin-right: 5px;
+   color: #f2b739;
+   transition: 0.25s ease;
+}
+
+.nav-bar ul li a:hover {
+    color: #ffffff;
+    background: #fffdfd;
+}
+
+.nav-bar ul li a:hover i {
+    color: #fff;
+    background: #ffffff;
+}
+
+.nav-bar ul li a.active {
+    color: #fff;
+    background: #ffffff;
+    text-decoration: none;
+
+}
+
+.nav-bar ul li a.active i {
+    color: #fff;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.nav-bar ul li a.active:hover {
+    color: #fff;
+    background: #ffffff;
+  }
+
+  .nav-bar ul li a.nav-button {
+    display: block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: 0.25s ease;
+    color: #ffffff;
+  }
+  
+  .nav-bar ul li a.nav-button i {
+    margin-right: 5px;
+    color: #f2b739;
+    transition: 0.25s ease;
+  }
+  
+  .nav-bar ul li a.nav-button:hover,
+  .nav-bar ul li a.nav-button.active {
+    color: #fff;
+    background: #af7903;
+  }
+  
+  .nav-bar ul li a.nav-button:hover i,
+  .nav-bar ul li a.nav-button.active i {
+    color: #746262;
+    background: #fd6272;
+  }
+  
+  ul li a {
+    display: flex;
+    align-items: center;
+
+  }
+
+  ul li:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  .nav-button {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-button svg {
+    margin-right: 0.3rem; /* Adjust the value as per your desired spacing */
+  }

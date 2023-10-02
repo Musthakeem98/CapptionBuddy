@@ -1,0 +1,85 @@
+.custom-border-left{
+border-right: 1px solid #ccc;
+  height: 93vh;
+}
+.custom-border-bottom{
+    border-bottom: 1px solid #ccc;
+}
+
+.custom-border-bottom:hover{
+    background-color: rgba(238, 207, 145, 0.329);
+    width: 100%;
+}
+.logout{
+  margin-top: 60vh;
+}
+.title{
+    padding-top: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.productname{
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+.pdescription{
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.time{
+    font-size: 9px;
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    
+}
+
+.languagehistory{
+    text-align: left;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.showtext textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .submitbttn{
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-Color:#ffae00;
+  }
+  
+  .submitbttn:hover{
+    background-Color:#ffae00b7;
+    color: #ffffff;
+  }
+  /* CSS for screens below 770px width */
+@media (max-width: 769px) {
+    .custom-border-left{
+        border-right: 1px solid #ccc;
+          height: 100%;
+        }
+  }
+  
+  

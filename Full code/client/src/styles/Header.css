@@ -1,0 +1,46 @@
+/* Header.css */
+
+.navbar {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.nav-link-hover {
+  position: relative;
+  color: #333; /* Change the color of the links */
+  text-decoration: none; /* Remove underline from the links */
+  margin-right: 20px; /* Add some right margin between the links */
+}
+
+.nav-link-hover::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  /* box-shadow: 0 -5px 0  orange inset; */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  border-bottom: 3.5px solid orange;
+  padding-bottom: 0px;
+}
+
+.nav-link-hover:hover::before {
+  opacity: 1;
+}
+
+.nav-link-hover:hover {
+  color: rgb(121, 62, 62);
+}
+
+@media screen and (max-width:992px) {
+  .nav-link-hover::before {
+
+    border-bottom: 3.5px solid orange;
+    width: 15%;
+  }
+  
+}

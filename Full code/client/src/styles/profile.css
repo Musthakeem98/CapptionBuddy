@@ -1,0 +1,55 @@
+.heading{
+    text-align: left;
+    padding-top: 35px;
+    color: #ff9d00a1;
+    font-size: 25px;
+    font-weight: 500;
+
+
+}
+
+.subheading{
+    text-align: left;
+    color: #72716fa1;
+    font-weight: 500;
+
+
+}
+
+/* .container:hover input[type="text"] {
+    pointer-events: none;
+  } */
+
+  .disabled-input {
+    pointer-events: none;
+  }
+
+  .savebtn{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:100%;
+  }
+
+  .password-field {
+
+    width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+
+  input[type="password"]:focus {
+    border-color: #ffae00;
+    outline: 1px solid #ffae00;
+  }
+  
+  input[type="password"]:hover{
+    outline: 1px solid #ffae00;
+  }
+  
+  

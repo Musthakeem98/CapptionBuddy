@@ -1,0 +1,110 @@
+.background{
+   height: 100vh;
+   width: 100%;
+   background: linear-gradient(134deg, rgba(123, 44, 191, 0.09) 16.98%, rgba(124, 181, 24, 0.07) 99.07%, rgba(255, 255, 255, 0.00) 99.08%);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+.animation {
+   height:80px;
+   overflow:hidden;
+   bottom: 1cm;
+ }
+ 
+ .animation > div > div {
+   padding: 0.5rem 0.75rem;
+   height:100px;
+   margin-bottom: 1.6rem;
+   display:inline-block;
+ }
+ 
+ .animation div:first-child {
+   animation: text-animation 10s infinite;
+ }
+ 
+ /* .first div {
+   background-color:#240046;
+ }
+ .second div {
+   background-color:#5a189a
+ }
+ .third div {
+   background-color:#7b2cbf;
+ } */
+ 
+ @keyframes text-animation {
+   0% {margin-top: 0;}
+   10% {margin-top: 0;}
+   20% {margin-top: -120px;}
+   30% {margin-top: -230px;}
+   40% {margin-top: -320px;}
+   60% {margin-top: -320px;}
+   70% {margin-top: -220px;}
+   80% {margin-top: -120px;}
+   90% {margin-top: 0;}
+   100% {margin-top: 0;}
+ }
+
+ .cssbuttons-io-button {
+   background: #ff9e00;
+   color: white;
+   font-family: inherit;
+   padding: 0.35em;
+   padding-left: 1.2em;
+   font-size: 17px;
+   font-weight: 500;
+   border-radius: 0.9em;
+   border: none;
+   letter-spacing: 0.05em;
+   display: flex;
+   align-items: center;
+   box-shadow: inset 0 0 1.6em -0.6em #ff6d00;
+   overflow: hidden;
+   position: relative;
+   height: 2.8em;
+   padding-right: 3.3em;
+ }
+ 
+ .cssbuttons-io-button .icon {
+   background: white;
+   margin-left: 1em;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 2.2em;
+   width: 2.2em;
+   border-radius: 0.7em;
+   box-shadow: 0.1em 0.1em 0.6em 0.2em #ff6d00;
+   right: 0.3em;
+   transition: all 0.3s;
+ }
+ 
+ .cssbuttons-io-button:hover .icon {
+   width: calc(100% - 0.6em);
+ }
+ 
+ .cssbuttons-io-button .icon svg {
+   width: 1.1em;
+   transition: transform 0.3s;
+   color: #ff8500;
+ }
+ 
+ .cssbuttons-io-button:hover .icon svg {
+   transform: translateX(0.1em);
+ }
+ 
+ .cssbuttons-io-button:active .icon {
+   transform: scale(0.95);
+ }
+ 
+ .navbar-nav li:hover{
+    box-shadow: 0 -5px 0px #ff6d00 inset,
+    500px 0 0 #dfdedb inset;
+
+ }
+
+
+ 

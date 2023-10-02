@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar {
+    height: 100vh;
+    width: 180px;
+    /* position: fixed; */
+    top: 48px;
+    left: 0;
+    background-color: #e69d0057; /* Light orange color */
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #3b1c07;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Set the links to fill the full width */
+    padding: 10px 20px; /* Add padding to create space around the link text */
+    
+  }
+  
+  .sidebar ul li a svg {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #af78036c; /* Darker orange color on hover */
+
+    
+  }
+
+  .sidebar ul li a:hover{
+    color: #ffffff;
+  }
+  
+  .content {
+    margin-left: 180px; /* Adjust the margin to make space for the sidebar */
+    padding: 20px;
+  }
+  
+  .content h1 {
+    color: #333;
+  }
+  ul li:not(:last-child){
+    margin-right: 0px;
+  }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; 
+      height: 10vh;/* Adjust alignment for mobile view */
+      width: 100vw;
+    }
+  
+    .sidebar ul {
+      padding: 0; /* Remove default padding for the list */
+      margin: 0; 
+      display: flex;
+      align-items: flex-start;/* Remove default margin for the list */
+    }
+  
+    .sidebar li {
+      margin: 10px 0; /* Add some vertical spacing between list items */
+    }
+  }

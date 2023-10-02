@@ -1,0 +1,14 @@
+.chart{
+    margin-left: 100px;
+}
+
+.usagetext{
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .chart{
+        margin-left: 0px;
+    }
+}

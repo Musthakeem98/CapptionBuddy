@@ -1,0 +1,64 @@
+.shadow-box{
+  /* background: red; */
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #f7ba0159;
+  border: 1px solid #ffcb7e;
+  
+}
+
+.titles{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.loginbackground{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(134deg, rgba(123, 44, 191, 0.09) 16.98%, rgba(124, 181, 24, 0.07) 99.07%, rgba(255, 255, 255, 0.00) 99.08%);
+}
+
+
+
+.button {
+  background: rgba(248, 203, 0, 0.486);
+  position: relative;
+  padding: 15px 18px;
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #e0a401;
+  border-radius: 10px;
+  outline: none;
+  overflow: hidden;
+  color: #000000;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+button svg {
+  fill: #e05a01;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+button span {
+  margin: 10px;
+}
+
+
+button:hover {
+  border-color:#e05a01;
+  background-color:#ff9d0065;
+  color: white;
+}
+
+
+button:hover::before {
+  box-shadow: inset 0 0 0 10em #e0ac01;
+}
