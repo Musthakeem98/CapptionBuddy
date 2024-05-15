@@ -1,6 +1,8 @@
 # CaptionBuddyAI
 
 
+## Screen shot of UI
+![Screen](ReadMe_Img/ScreenShot.png "Screen")
 
 ## Getting Started
 
